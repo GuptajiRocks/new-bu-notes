@@ -10,7 +10,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </head>
 <body>
-    
+
     <div class="container-fluid p-0 d-flex h-100">
         <!-- sidebar -->
         <div class="d-flex flex-column flex-shrink-0 px-4 py-3 offcanvas-md offcanvas-start"  style="width:250px;" id="sideBar">
@@ -22,21 +22,21 @@
 
             <!-- Nav items -->
             <div class="d-flex flex-column flex-fill">
-                <a href="../index.html" class="px-2 py-1 mb-1 rounded-pill nav-link">
+                <a href="/index.html" class="px-2 py-1 mb-1 rounded-pill nav-link">
                     <p class="m-0"><i class="fa fa-home me-2" aria-hidden="true"></i>Home</p>
-                </a>  
-                <a href="./firstYear.html" class="px-2 py-1 mb-1 rounded-pill nav-link active">
+                </a>
+                <a href="/pages/firstYear.html" class="px-2 py-1 mb-1 rounded-pill nav-link active">
                     <p class="m-0"><i class="fa-solid fa-graduation-cap me-2"></i>1st Year</p>
-                </a>   
+                </a>
                 <a href="./videoLectures.html" class="px-2 py-1 mb-1 rounded-pill nav-link">
                     <p class="m-0"><i class="fa-solid fa-film me-2" aria-hidden="true"></i>Video Lectures</p>
-                </a>  
+                </a>
                 <a href="./info.html" class="px-2 py-1 mb-1 rounded-pill nav-link">
                     <p class="m-0"><i class="fa-solid fa-circle-info me-2"></i>Info</p>
-                </a>  
+                </a>
                 <a href="" class="px-2 py-1 mb-1 rounded-pill nav-link">
                     <p class="m-0"><i class="fa-solid fa-paper-plane me-2"></i>Grievances</p>
-                </a>  
+                </a>
             </div>
             <hr class="mt-0">
             <!-- Credits -->
@@ -81,52 +81,59 @@
                     <a href="/pages/firstYearFirstSem.html" class="rounded-pill folder-locator">
                         1st Semester
                     </a>
+                    <div class="d-flex p-2 rounded-pill align-items-center">
+                        <i class="fa-solid fa-chevron-right" style="font-size:small;"></i>
+                    </div>
+                    <a href="/pages/semone/cset101landing.html" class="rounded-pill folder-locator">
+                        CSET-101
+                    </a>
 
                 </div>
                 <!-- folder section -->
                 <div class="d-flex flex-wrap gap-3 gap-md-4 ms-md-4 mt-4 mt-md-2">
-                    <a href="/pages/semone/emat101landing.html" class="folder-tile">
-                        <img src="../img/folder.png" width="100px" alt="">
+                    <a href="/pages/semone/emat101llec.html" class="folder-tile">
+                        <img src="/img/folder.png" width="100px" alt="">
                         <div class="">
-                            <p class="m-0 mb-1 fw-semibold" style="font-size: small;max-width: 100px;word-wrap: break-word;">EMAT-101-L</p>
-                            <p style="margin: 0px;font-size: x-small;max-width: 120px;overflow-x: hidden;">Engineering Calculus </p>
+                            <p class="m-0 mb-1 fw-semibold" style="font-size: small;max-width: 100px;word-wrap: break-word;">Lectures</p>
+                            <p style="margin: 0px;font-size: x-small;max-width: 120px;overflow-x: hidden;">PDFs</p>
                         </div>
                     </a>
-                    <a href="/pages/semone/cset101landing.html" class="folder-tile">
-                        <img src="../img/folder.png" width="100px" alt="">
+                    <a href="/pages/semone/emat101ltut.html" class="folder-tile">
+                        <img src="/img/folder.png" width="100px" alt="">
                         <div class="">
-                            <p class="m-0 mb-1 fw-semibold" style="font-size: small;max-width: 100px;word-wrap: break-word;">CSET-101-L</p>
-                            <p style="margin: 0px;font-size: x-small;max-width: 120px;overflow-x: hidden;">Python</p>
+                            <p class="m-0 mb-1 fw-semibold" style="font-size: small;max-width: 100px;word-wrap: break-word;">Tutorials</p>
+                            <p style="margin: 0px;font-size: x-small;max-width: 120px;overflow-x: hidden;">PDFs</p>
                         </div>
                     </a>
-                    <a href="" class="folder-tile">
-                        <img src="../img/folder.png" width="100px" alt="">
+                    <a href="/pages/semone/emat101ltutsol.html" class="folder-tile">
+                        <img src="/img/folder.png" width="100px" alt="">
                         <div class="">
-                            <p class="m-0 mb-1 fw-semibold" style="font-size: small;max-width: 100px;word-wrap: break-word;">CSET-102</p>
-                            <p style="margin: 0px;font-size: x-small;max-width: 120px;overflow-x: hidden;">Intro to Electrical Engg.</p>
+                            <p class="m-0 mb-1 fw-semibold" style="font-size: small;max-width: 100px;word-wrap: break-word;">Tutorial Solutions</p>
+                            <p style="margin: 0px;font-size: x-small;max-width: 120px;overflow-x: hidden;">PDFs</p>
                         </div>
                     </a>
                 </div>
-                
-                <!-- file container -->
+
+
                 <div class="d-flex flex-wrap gap-2 gap-md-2 ms-md-4 items-space">
                     <!-- file tile -->
                     <div class="bg-slate rounded-4 p-2 pb-3 file-tile ms-2 m-md-1 file-tile">
                         <div class="m-0 d-flex p-2 gap-1 align-items-center">
-                            <a href="https://trialtwo.blob.core.windows.net/sem1/Sem-1 Curriculum.pdf" data-bs-toggle="tooltip" title="Sem 1 Curriculum" class="d-flex gap-2 align-items-center">
-                                <p class="m-0 fw-semibold" style="font-size: small;">SEM-1 Curriculum</p>
+                            <a href="https://trialtwo.blob.core.windows.net/cset101/CSET101 Course Plan.pdf" data-bs-toggle="tooltip" title="" class="d-flex gap-2 align-items-center">
+                                <p class="m-0 fw-semibold" style="font-size: small;">Subject Syllabus</p>
                             </a>
-                        <a href="https://trialtwo.blob.core.windows.net/sem1/Sem-1 Curriculum.pdf" class="ms-auto d-flex button p-2 rounded-pill">
+                        <a href="https://trialtwo.blob.core.windows.net/cset101/CSET101 Course Plan.pdf" class="ms-auto d-flex button p-2 rounded-pill">
                             <i class="fa fa-download" aria-hidden="true"></i>
                         </a>
                         </div>
-                        <a href="https://trialtwo.blob.core.windows.net/sem1/Sem-1 Curriculum.pdf">
+                        <a href="https://trialtwo.blob.core.windows.net/cset101/CSET101 Course Plan.pdf">
                             <div class="rounded-4 bg-white py-5 py-md-5 d-flex justify-content-center">
-                                <img src="../img/pdf.png" width="40px" alt="">
+                                <img src="/img/pdf.png" width="40px" alt="">
                             </div>
                         </a>
-                    </div>               
-                </div> 
+                    </div>
+
+                </div>
             </div>
         </div>
     </div>
@@ -138,5 +145,4 @@
     return new bootstrap.Tooltip(tooltipTriggerEl)
     })
 </script>
-<script src="/script.js"></script>
 </html>
